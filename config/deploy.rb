@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-set :application, "my_app_name"
+set :application, "achieve"
 set :repo_url, "https://github.com/wx3098/aws_blog.git"
 
 set :branch, ENV['BRANCH'] || 'master'
