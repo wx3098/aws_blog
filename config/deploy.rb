@@ -6,7 +6,7 @@ set :repo_url, "https://github.com/wx3098/aws_blog.git"
 
 set :branch, ENV['BRANCH'] || 'master'
 
-set :deploy_to, '/var/www/achieve'
+set :deploy_to, '/var/www/aws_blog'
 
 set :linked_files, %w{.env config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
